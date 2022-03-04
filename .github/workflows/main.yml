@@ -32,7 +32,7 @@ jobs:
       id: build-image
       env:
         DOCKER_REGISTRY: ${{ steps.login-docker.outputs.registry }}
-        DOCKER_REPOSITORY: gitops-argocd
+        DOCKER_REPOSITORY: argocddemo
 
       run: |
         # Build a docker container and push it to ECR
