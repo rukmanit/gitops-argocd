@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   pullPolicy: IfNotPresent
   repository: rtiwari25/argocddemo
-  version: main-05821d4
+  version: main-9cb8617
 
 imagePullSecrets: []
 nameOverride: ""
